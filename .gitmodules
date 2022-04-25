@@ -1,0 +1,27 @@
+[submodule "zsh-you-should-use"]
+	path = zsh-you-should-use
+	url = git@github.com:MichaelAquilina/zsh-you-should-use.git
+[submodule "zsh-syntax-highlighting"]
+	path = zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh-auto-notify"]
+	path = zsh-auto-notify
+	url = git@github.com:MichaelAquilina/zsh-auto-notify.git
+[submodule "zsh-autosuggestions"]
+	path = zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "zsh-completions"]
+	path = zsh-completions
+	url = git@github.com:zsh-users/zsh-completions.git
+[submodule "powerlevel10k"]
+	path = powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git
+[submodule "title-tab"]
+	path = title-tab
+	url = git@github.com:romulomachado/title-tab.git
+[submodule "fzf"]
+	path = fzf
+	url = git@github.com:junegunn/fzf.git
+[submodule "asdf"]
+	path = asdf
+	url = git@github.com:asdf-vm/asdf.git
