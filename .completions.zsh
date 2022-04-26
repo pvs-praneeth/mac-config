@@ -67,10 +67,17 @@ zstyle ':completion:*' cache-path "$HOME/.zcompcache"
 # %B %b - Bold.
 # %U %u - Underline.
 
-zstyle ':completion:*:*:*:*:corrections' format '%F{yellow}!- %d (errors: %e) -!%f'
-zstyle ':completion:*:*:*:*:descriptions' format '%F{blue}-- %D %d --%f'
-zstyle ':completion:*:*:*:*:messages' format ' %F{purple} -- %d --%f'
-zstyle ':completion:*:*:*:*:warnings' format ' %F{red}-- no matches found --%f'
+zstyle ':completion:*:*:*:*:corrections' format '%F{red}!- %d (errors: %e) -!%f'
+zstyle ':completion:*:*:*:*:descriptions' format '%F{green}-- %D %d --%f'
+zstyle ':completion:*:*:*:*:messages' format ' %F{blue} -- %d --%f'
+zstyle ':completion:*:*:*:*:warnings' format ' %F{yellow}-- no matches found --%f'
+
+# syntax for list-colors is '=pattern=format' {color codes are ANSI values}
+# will present all command options in blue, but descriptions will stay normal.
+zstyle ':completion:*:options' list-colors '=^(-- *)=34'
+
+# Settings the colors for processes to be killed.
+zstyle ':completion:*:*:kill:*' list-colors '=(#b) #([0-9]#)*( *[a-z])*=34=31=33'
 
 ## Grouping Results
 # Grouping different type of matches under their descriptions.

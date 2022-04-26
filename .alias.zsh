@@ -12,7 +12,7 @@ alias suspend='sudo pm-suspend'
 # | Zsh |
 # +-----+
 
-alias d='dirs -v'
+alias dh='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index # directory stack
 
 # +----------+
