@@ -4,9 +4,6 @@
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
-[submodule "zsh-auto-notify"]
-	path = zsh-auto-notify
-	url = git@github.com:MichaelAquilina/zsh-auto-notify.git
 [submodule "zsh-autosuggestions"]
 	path = zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
@@ -16,9 +13,6 @@
 [submodule "powerlevel10k"]
 	path = powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
-[submodule "title-tab"]
-	path = title-tab
-	url = git@github.com:romulomachado/title-tab.git
 [submodule "fzf"]
 	path = fzf
 	url = git@github.com:junegunn/fzf.git
