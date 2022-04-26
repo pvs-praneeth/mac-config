@@ -21,16 +21,6 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index # directory stack
 
 # alias dot="$HOME/.dotfiles"
 
-# +-----+
-# | cd |
-# +-----+
-
-alias cdssh='cd $HOME/.ssh'
-alias cddoc='cd $HOME/Documents'
-alias cddown='cd $HOME/Downloads'
-alias cdconfig='cd $HOME/.config'
-alias cdwork='cd $HOME/projects'
-
 # +----+
 # | ls |
 # +----+
