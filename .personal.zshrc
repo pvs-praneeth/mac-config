@@ -40,7 +40,7 @@ export ASDF_CONFIG_FILE=$HOME/.config/zsh/.asdfrc
 export POWERLEVEL9K_CONFIG_FILE=$HOME/.config/zsh/.p10k.zsh
 
 ## Setting the file for saving path marks
-export $PATHMARKS_FILE=$HOME/.config/zsh/.pathmarks
+export PATHMARKS_FILE=$HOME/.config/zsh/.pathmarks
 
 ## FZF options
 # # Toggle preview window visibility with '?'
